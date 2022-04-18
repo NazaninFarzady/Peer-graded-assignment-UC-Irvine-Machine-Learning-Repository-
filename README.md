@@ -27,8 +27,8 @@ The following descriptions of the 9 variables in the dataset are taken from the 
 9. Sub_metering_3: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.
 
 
-### The question of the assignment: "examine how household energy usage varies over a 2-day period in February, 2007"
-### The task is reconstructing the plots which were constructed using the base plotting system.
+## The question of the assignment: "examine how household energy usage varies over a 2-day period in February, 2007"
+## The task is reconstructing the plots which were constructed using the base plotting system.
 
 The script does the following steps:
 - Load the data
@@ -39,7 +39,7 @@ The script does the following steps:
 
     - Construct the plot and save it to a PNG file with a width of 480 pixels and a height of 480 pixels.
 
-    - Name each of the plot files as \color{red}{\verb|plot1.png|}plot1.png, \color{red}{\verb|plot2.png|}plot2.png, etc.
+    - Name each of the plot files as plot1.png, plot2.png, etc.
 
     - Create a separate R code file (plot1.R, plot2.R, etc.) that constructs the corresponding plot, i.e. code in plot1.R constructs the plot1.png plot.
     - Add the PNG file and R code file to the top-level folder of the git repository (no need for separate sub-folders)
