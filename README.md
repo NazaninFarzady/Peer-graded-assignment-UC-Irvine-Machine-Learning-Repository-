@@ -28,9 +28,8 @@ The following descriptions of the 9 variables in the dataset are taken from the 
 
 
 ## The question of the assignment: "examine how household energy usage varies over a 2-day period in February, 2007"
-## The task is reconstructing the plots which were constructed using the base plotting system.
 
-The script does the following steps:
+## Tasks.
 - Load the data
     - The dataset has 2,075,259 rows and 9 columns. Subset only data from the dates 2007-02-01 and 2007-02-02.
     - Convert the Date and Time variables to Date/Time classes in R using the strptime() and as.Date() functions
